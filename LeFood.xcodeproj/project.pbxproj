@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A49845DF24AD31EE0031B0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49845DE24AD31EE0031B0BD /* AppDelegate.swift */; };
+		A49845E124AD31EE0031B0BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49845E024AD31EE0031B0BD /* SceneDelegate.swift */; };
+		A49845E324AD31EE0031B0BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49845E224AD31EE0031B0BD /* ContentView.swift */; };
+		A49845E524AD31F00031B0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49845E424AD31F00031B0BD /* Assets.xcassets */; };
+		A49845E824AD31F00031B0BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49845E724AD31F00031B0BD /* Preview Assets.xcassets */; };
+		A49845EB24AD31F00031B0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49845E924AD31F00031B0BD /* LaunchScreen.storyboard */; };
+		A49845F624AD31F00031B0BD /* LeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49845F524AD31F00031B0BD /* LeFoodTests.swift */; };
+		A498460124AD31F00031B0BD /* LeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498460024AD31F00031B0BD /* LeFoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A49845F224AD31F00031B0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A49845D324AD31EE0031B0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A49845DA24AD31EE0031B0BD;
+			remoteInfo = LeFood;
+		};
+		A49845FD24AD31F00031B0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A49845D324AD31EE0031B0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A49845DA24AD31EE0031B0BD;
+			remoteInfo = LeFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A49845DB24AD31EE0031B0BD /* LeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49845DE24AD31EE0031B0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A49845E024AD31EE0031B0BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A49845E224AD31EE0031B0BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A49845E424AD31F00031B0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A49845E724AD31F00031B0BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A49845EA24AD31F00031B0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A49845EC24AD31F00031B0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49845F124AD31F00031B0BD /* LeFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49845F524AD31F00031B0BD /* LeFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeFoodTests.swift; sourceTree = "<group>"; };
+		A49845F724AD31F00031B0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49845FC24AD31F00031B0BD /* LeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A498460024AD31F00031B0BD /* LeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeFoodUITests.swift; sourceTree = "<group>"; };
+		A498460224AD31F00031B0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A49845D824AD31EE0031B0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49845EE24AD31F00031B0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49845F924AD31F00031B0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A49845D224AD31EE0031B0BD = {
+			isa = PBXGroup;
+			children = (
+				A49845DD24AD31EE0031B0BD /* LeFood */,
+				A49845F424AD31F00031B0BD /* LeFoodTests */,
+				A49845FF24AD31F00031B0BD /* LeFoodUITests */,
+				A49845DC24AD31EE0031B0BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A49845DC24AD31EE0031B0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A49845DB24AD31EE0031B0BD /* LeFood.app */,
+				A49845F124AD31F00031B0BD /* LeFoodTests.xctest */,
+				A49845FC24AD31F00031B0BD /* LeFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A49845DD24AD31EE0031B0BD /* LeFood */ = {
+			isa = PBXGroup;
+			children = (
+				A49845DE24AD31EE0031B0BD /* AppDelegate.swift */,
+				A49845E024AD31EE0031B0BD /* SceneDelegate.swift */,
+				A49845E224AD31EE0031B0BD /* ContentView.swift */,
+				A49845E424AD31F00031B0BD /* Assets.xcassets */,
+				A49845E924AD31F00031B0BD /* LaunchScreen.storyboard */,
+				A49845EC24AD31F00031B0BD /* Info.plist */,
+				A49845E624AD31F00031B0BD /* Preview Content */,
+			);
+			path = LeFood;
+			sourceTree = "<group>";
+		};
+		A49845E624AD31F00031B0BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A49845E724AD31F00031B0BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A49845F424AD31F00031B0BD /* LeFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				A49845F524AD31F00031B0BD /* LeFoodTests.swift */,
+				A49845F724AD31F00031B0BD /* Info.plist */,
+			);
+			path = LeFoodTests;
+			sourceTree = "<group>";
+		};
+		A49845FF24AD31F00031B0BD /* LeFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A498460024AD31F00031B0BD /* LeFoodUITests.swift */,
+				A498460224AD31F00031B0BD /* Info.plist */,
+			);
+			path = LeFoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A49845DA24AD31EE0031B0BD /* LeFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A498460524AD31F00031B0BD /* Build configuration list for PBXNativeTarget "LeFood" */;
+			buildPhases = (
+				A49845D724AD31EE0031B0BD /* Sources */,
+				A49845D824AD31EE0031B0BD /* Frameworks */,
+				A49845D924AD31EE0031B0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeFood;
+			productName = LeFood;
+			productReference = A49845DB24AD31EE0031B0BD /* LeFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A49845F024AD31F00031B0BD /* LeFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A498460824AD31F00031B0BD /* Build configuration list for PBXNativeTarget "LeFoodTests" */;
+			buildPhases = (
+				A49845ED24AD31F00031B0BD /* Sources */,
+				A49845EE24AD31F00031B0BD /* Frameworks */,
+				A49845EF24AD31F00031B0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A49845F324AD31F00031B0BD /* PBXTargetDependency */,
+			);
+			name = LeFoodTests;
+			productName = LeFoodTests;
+			productReference = A49845F124AD31F00031B0BD /* LeFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A49845FB24AD31F00031B0BD /* LeFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A498460B24AD31F00031B0BD /* Build configuration list for PBXNativeTarget "LeFoodUITests" */;
+			buildPhases = (
+				A49845F824AD31F00031B0BD /* Sources */,
+				A49845F924AD31F00031B0BD /* Frameworks */,
+				A49845FA24AD31F00031B0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A49845FE24AD31F00031B0BD /* PBXTargetDependency */,
+			);
+			name = LeFoodUITests;
+			productName = LeFoodUITests;
+			productReference = A49845FC24AD31F00031B0BD /* LeFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A49845D324AD31EE0031B0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = BDCApps;
+				TargetAttributes = {
+					A49845DA24AD31EE0031B0BD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					A49845F024AD31F00031B0BD = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A49845DA24AD31EE0031B0BD;
+					};
+					A49845FB24AD31F00031B0BD = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A49845DA24AD31EE0031B0BD;
+					};
+				};
+			};
+			buildConfigurationList = A49845D624AD31EE0031B0BD /* Build configuration list for PBXProject "LeFood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A49845D224AD31EE0031B0BD;
+			productRefGroup = A49845DC24AD31EE0031B0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A49845DA24AD31EE0031B0BD /* LeFood */,
+				A49845F024AD31F00031B0BD /* LeFoodTests */,
+				A49845FB24AD31F00031B0BD /* LeFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A49845D924AD31EE0031B0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49845EB24AD31F00031B0BD /* LaunchScreen.storyboard in Resources */,
+				A49845E824AD31F00031B0BD /* Preview Assets.xcassets in Resources */,
+				A49845E524AD31F00031B0BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49845EF24AD31F00031B0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49845FA24AD31F00031B0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A49845D724AD31EE0031B0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49845DF24AD31EE0031B0BD /* AppDelegate.swift in Sources */,
+				A49845E124AD31EE0031B0BD /* SceneDelegate.swift in Sources */,
+				A49845E324AD31EE0031B0BD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49845ED24AD31F00031B0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49845F624AD31F00031B0BD /* LeFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49845F824AD31F00031B0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A498460124AD31F00031B0BD /* LeFoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A49845F324AD31F00031B0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A49845DA24AD31EE0031B0BD /* LeFood */;
+			targetProxy = A49845F224AD31F00031B0BD /* PBXContainerItemProxy */;
+		};
+		A49845FE24AD31F00031B0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A49845DA24AD31EE0031B0BD /* LeFood */;
+			targetProxy = A49845FD24AD31F00031B0BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A49845E924AD31F00031B0BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A49845EA24AD31F00031B0BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A498460324AD31F00031B0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A498460424AD31F00031B0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A498460624AD31F00031B0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LeFood/Preview Content\"";
+				DEVELOPMENT_TEAM = G64X4LJMLZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LeFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.bdcapps.LeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A498460724AD31F00031B0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LeFood/Preview Content\"";
+				DEVELOPMENT_TEAM = G64X4LJMLZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LeFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.bdcapps.LeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A498460924AD31F00031B0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G64X4LJMLZ;
+				INFOPLIST_FILE = LeFoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.bdcapps.LeFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeFood.app/LeFood";
+			};
+			name = Debug;
+		};
+		A498460A24AD31F00031B0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G64X4LJMLZ;
+				INFOPLIST_FILE = LeFoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.bdcapps.LeFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeFood.app/LeFood";
+			};
+			name = Release;
+		};
+		A498460C24AD31F00031B0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G64X4LJMLZ;
+				INFOPLIST_FILE = LeFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.bdcapps.LeFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeFood;
+			};
+			name = Debug;
+		};
+		A498460D24AD31F00031B0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G64X4LJMLZ;
+				INFOPLIST_FILE = LeFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.bdcapps.LeFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A49845D624AD31EE0031B0BD /* Build configuration list for PBXProject "LeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A498460324AD31F00031B0BD /* Debug */,
+				A498460424AD31F00031B0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A498460524AD31F00031B0BD /* Build configuration list for PBXNativeTarget "LeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A498460624AD31F00031B0BD /* Debug */,
+				A498460724AD31F00031B0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A498460824AD31F00031B0BD /* Build configuration list for PBXNativeTarget "LeFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A498460924AD31F00031B0BD /* Debug */,
+				A498460A24AD31F00031B0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A498460B24AD31F00031B0BD /* Build configuration list for PBXNativeTarget "LeFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A498460C24AD31F00031B0BD /* Debug */,
+				A498460D24AD31F00031B0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A49845D324AD31EE0031B0BD /* Project object */;
+}
