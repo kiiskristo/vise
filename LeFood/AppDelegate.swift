@@ -6,16 +6,27 @@
 //  Copyright © 2020 BDCApps. All rights reserved.
 //
 
-import UIKit
+import ParseSwift
+import Stripe
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupStripe()
+        setupParse()
         return true
+    }
+
+    private func setupStripe() {
+        Stripe.setDefaultPublishableKey("")
+        STPPaymentConfiguration.shared().appleMerchantIdentifier = ""
+    }
+
+    private func setupParse() {
+        ParseSwift.initialize(applicationId: "",
+                              clientKey: "",
+                              serverURL: URL(string: "")!)
     }
 
     // MARK: UISceneSession Lifecycle
@@ -31,7 +42,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
 
 }
 

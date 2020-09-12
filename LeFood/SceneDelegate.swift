@@ -13,21 +13,33 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
-        // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        if let userActivity = connectionOptions.userActivities.first {
+            let token = getToken(userActivity: userActivity)
+        }
+
+        let scanView = ScanView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            window.rootViewController = UIHostingController(rootView: scanView)
             self.window = window
             window.makeKeyAndVisible()
+        }
+    }
+
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        for context in URLContexts {
+            print("url: \(context.url.absoluteURL)")
+            print("scheme: \(String(describing: context.url.scheme))")
+            print("host: \(String(describing: context.url.host))")
+            print("path: \(context.url.path)")
+            print("components: \(context.url.pathComponents)")
         }
     }
 
@@ -58,7 +70,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
+    
+    func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
+        let token = getToken(userActivity: userActivity)
+    }
 
+    private func getToken(userActivity: NSUserActivity) -> String? {
+
+        guard userActivity.activityType == NSUserActivityTypeBrowsingWeb else {
+            return nil
+        }
+        // Confirm that the NSUserActivity object contains a valid NDEF message.
+        let ndefMessage = userActivity.ndefMessagePayload
+        if ndefMessage.records.count > 0,
+           ndefMessage.records[0].typeNameFormat != .empty {
+            //return
+            debugPrint("NFC linking successful")
+        }
+
+        if let paths = userActivity.webpageURL?.pathComponents, paths.contains("token"), let token = paths.last {
+            debugPrint("We got token with launch: \(token)")
+            return token
+        }
+        return nil
+    }
 
 }
-

@@ -3,18 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4124AAC24E4472B00CD9C42 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4124AAB24E4472B00CD9C42 /* TextRecognition.swift */; };
+		A43CFB08250CD9DE00F967BA /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = A43CFB07250CD9DE00F967BA /* Stripe */; };
+		A43CFB09250CD9DE00F967BA /* Stripe in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A43CFB07250CD9DE00F967BA /* Stripe */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A43CFB0C250CDA2700F967BA /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A43CFB0B250CDA2700F967BA /* ParseSwift */; };
+		A43D75DC24D8B6ED00C5C4DD /* MyApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D75DA24D8B6EB00C5C4DD /* MyApiClient.swift */; };
+		A43D75DD24D8B6ED00C5C4DD /* PaymentContextDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D75DB24D8B6ED00C5C4DD /* PaymentContextDelegate.swift */; };
+		A44C069E24F5AC2600140984 /* MenuProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C069D24F5AC2600140984 /* MenuProviderImpl.swift */; };
+		A45B5DC824C8387800BF7899 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B5DC724C8387800BF7899 /* CardView.swift */; };
+		A45B5DCA24C839B800BF7899 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B5DC924C839B800BF7899 /* TopView.swift */; };
+		A474168224BF8ABD00FD20B6 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A474168124BF8ABD00FD20B6 /* AppView.swift */; };
+		A474168624BF8B4200FD20B6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A474168524BF8B4200FD20B6 /* OrderView.swift */; };
+		A474168824BF8B7D00FD20B6 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A474168724BF8B7D00FD20B6 /* FavouritesView.swift */; };
 		A49845DF24AD31EE0031B0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49845DE24AD31EE0031B0BD /* AppDelegate.swift */; };
 		A49845E124AD31EE0031B0BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49845E024AD31EE0031B0BD /* SceneDelegate.swift */; };
-		A49845E324AD31EE0031B0BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49845E224AD31EE0031B0BD /* ContentView.swift */; };
 		A49845E524AD31F00031B0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49845E424AD31F00031B0BD /* Assets.xcassets */; };
 		A49845E824AD31F00031B0BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49845E724AD31F00031B0BD /* Preview Assets.xcassets */; };
 		A49845EB24AD31F00031B0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49845E924AD31F00031B0BD /* LaunchScreen.storyboard */; };
 		A49845F624AD31F00031B0BD /* LeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49845F524AD31F00031B0BD /* LeFoodTests.swift */; };
 		A498460124AD31F00031B0BD /* LeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498460024AD31F00031B0BD /* LeFoodUITests.swift */; };
+		A4B61A1924DE7E81009351C1 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B61A1824DE7E81009351C1 /* ScanView.swift */; };
+		A4BBC16B24CB621700D9C410 /* OrderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBC16A24CB621700D9C410 /* OrderRow.swift */; };
+		A4BBC16D24CC8CC200D9C410 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBC16C24CC8CC200D9C410 /* UserData.swift */; };
+		A4E4D6CF24F66E9500C623D4 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = A4E4D6CE24F66E9500C623D4 /* Introspect */; };
+		A4E4D6E224F6BF7A00C623D4 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = A4E4D6E124F6BF7A00C623D4 /* Networking */; };
+		A4E4D6E424F6C02A00C623D4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4D6E324F6C02A00C623D4 /* API.swift */; };
+		A4E4D6FE24F80DDF00C623D4 /* NFCScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4D6FD24F80DDF00C623D4 /* NFCScanner.swift */; };
+		A4E4D70024F811BD00C623D4 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4D6FF24F811BD00C623D4 /* Color+Extension.swift */; };
+		A4E4D70424F84A1100C623D4 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4D70324F84A1100C623D4 /* BadgeView.swift */; };
+		A4F248DD24AE89C90099C5D8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F248DC24AE89C90099C5D8 /* Product.swift */; };
+		A4F248E724B1F1B80099C5D8 /* ProductGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F248E624B1F1B80099C5D8 /* ProductGroup.swift */; };
+		A4F248E924B1F1C80099C5D8 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F248E824B1F1C80099C5D8 /* Place.swift */; };
+		A4F248ED24B1FDA90099C5D8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F248EC24B1FDA90099C5D8 /* ViewModel.swift */; };
+		A4F248EF24B1FF780099C5D8 /* MenuProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F248EE24B1FF780099C5D8 /* MenuProvider.swift */; };
+		A4F248F824B2150D0099C5D8 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F248F724B2150D0099C5D8 /* Cart.swift */; };
+		A4F248FB24B216840099C5D8 /* MenuProviderMoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F248FA24B216840099C5D8 /* MenuProviderMoc.swift */; };
+		A4F2490024B26BAC0099C5D8 /* MenuImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F248FF24B26BAC0099C5D8 /* MenuImage.swift */; };
+		A4F2490324B26DCA0099C5D8 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2490224B26DCA0099C5D8 /* ImageLoader.swift */; };
+		A4F2490924B278660099C5D8 /* MenuListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2490824B278660099C5D8 /* MenuListViewModel.swift */; };
+		A4F2490B24B278CC0099C5D8 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2490A24B278CC0099C5D8 /* MenuListView.swift */; };
+		A4F2490D24B28A0C0099C5D8 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2490C24B28A0C0099C5D8 /* ActivityIndicator.swift */; };
+		A4F758F624DBEE37000079B0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F758F524DBEE37000079B0 /* HeaderView.swift */; };
+		A4F758FA24DBFDA7000079B0 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F758F924DBFDA7000079B0 /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +68,43 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A4E4D6A724F6669400C623D4 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E4D6EC24F7C19900C623D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A43CFB09250CD9DE00F967BA /* Stripe in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A4124AAB24E4472B00CD9C42 /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
+		A43D75DA24D8B6EB00C5C4DD /* MyApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApiClient.swift; sourceTree = "<group>"; };
+		A43D75DB24D8B6ED00C5C4DD /* PaymentContextDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentContextDelegate.swift; sourceTree = "<group>"; };
+		A44C069D24F5AC2600140984 /* MenuProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProviderImpl.swift; sourceTree = "<group>"; };
+		A45B5DC724C8387800BF7899 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A45B5DC924C839B800BF7899 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		A474168124BF8ABD00FD20B6 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		A474168524BF8B4200FD20B6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		A474168724BF8B7D00FD20B6 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
 		A49845DB24AD31EE0031B0BD /* LeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49845DE24AD31EE0031B0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A49845E024AD31EE0031B0BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A49845E224AD31EE0031B0BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A49845E424AD31F00031B0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A49845E724AD31F00031B0BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A49845EA24AD31F00031B0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +115,28 @@
 		A49845FC24AD31F00031B0BD /* LeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A498460024AD31F00031B0BD /* LeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeFoodUITests.swift; sourceTree = "<group>"; };
 		A498460224AD31F00031B0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B61A1824DE7E81009351C1 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		A4BBC16A24CB621700D9C410 /* OrderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRow.swift; sourceTree = "<group>"; };
+		A4BBC16C24CC8CC200D9C410 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		A4E4D6E324F6C02A00C623D4 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		A4E4D6FD24F80DDF00C623D4 /* NFCScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCScanner.swift; sourceTree = "<group>"; };
+		A4E4D6FF24F811BD00C623D4 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		A4E4D70324F84A1100C623D4 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		A4F248DC24AE89C90099C5D8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A4F248E624B1F1B80099C5D8 /* ProductGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGroup.swift; sourceTree = "<group>"; };
+		A4F248E824B1F1C80099C5D8 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		A4F248EB24B1FAB90099C5D8 /* LeFood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeFood.entitlements; sourceTree = "<group>"; };
+		A4F248EC24B1FDA90099C5D8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A4F248EE24B1FF780099C5D8 /* MenuProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProvider.swift; sourceTree = "<group>"; };
+		A4F248F724B2150D0099C5D8 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		A4F248FA24B216840099C5D8 /* MenuProviderMoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProviderMoc.swift; sourceTree = "<group>"; };
+		A4F248FF24B26BAC0099C5D8 /* MenuImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuImage.swift; sourceTree = "<group>"; };
+		A4F2490224B26DCA0099C5D8 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		A4F2490824B278660099C5D8 /* MenuListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewModel.swift; sourceTree = "<group>"; };
+		A4F2490A24B278CC0099C5D8 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		A4F2490C24B28A0C0099C5D8 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		A4F758F524DBEE37000079B0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A4F758F924DBFDA7000079B0 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +144,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E4D6CF24F66E9500C623D4 /* Introspect in Frameworks */,
+				A4E4D6E224F6BF7A00C623D4 /* Networking in Frameworks */,
+				A43CFB0C250CDA2700F967BA /* ParseSwift in Frameworks */,
+				A43CFB08250CD9DE00F967BA /* Stripe in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +168,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A43D75D924D8B6D200C5C4DD /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				A43D75DA24D8B6EB00C5C4DD /* MyApiClient.swift */,
+				A43D75DB24D8B6ED00C5C4DD /* PaymentContextDelegate.swift */,
+				A4E4D6E324F6C02A00C623D4 /* API.swift */,
+			);
+			path = Stripe;
+			sourceTree = "<group>";
+		};
+		A474168324BF8B0D00FD20B6 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				A474168524BF8B4200FD20B6 /* OrderView.swift */,
+				A4BBC16A24CB621700D9C410 /* OrderRow.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		A474168424BF8B1700FD20B6 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				A474168724BF8B7D00FD20B6 /* FavouritesView.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		A4951E3524E518CF00A0FD27 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A4124AAB24E4472B00CD9C42 /* TextRecognition.swift */,
+				A4E4D6FD24F80DDF00C623D4 /* NFCScanner.swift */,
+				A43D75D924D8B6D200C5C4DD /* Stripe */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A49845D224AD31EE0031B0BD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +212,7 @@
 				A49845F424AD31F00031B0BD /* LeFoodTests */,
 				A49845FF24AD31F00031B0BD /* LeFoodUITests */,
 				A49845DC24AD31EE0031B0BD /* Products */,
+				A4E4D6F124F7C78800C623D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +229,14 @@
 		A49845DD24AD31EE0031B0BD /* LeFood */ = {
 			isa = PBXGroup;
 			children = (
+				A4E4D70124F8444E00C623D4 /* Screens */,
+				A4F248EB24B1FAB90099C5D8 /* LeFood.entitlements */,
+				A4F248F024B200AB0099C5D8 /* MVVM */,
+				A4F248DA24AE89A00099C5D8 /* Model */,
+				A4951E3524E518CF00A0FD27 /* Services */,
+				A4F2490124B26DBC0099C5D8 /* Utils */,
 				A49845DE24AD31EE0031B0BD /* AppDelegate.swift */,
 				A49845E024AD31EE0031B0BD /* SceneDelegate.swift */,
-				A49845E224AD31EE0031B0BD /* ContentView.swift */,
 				A49845E424AD31F00031B0BD /* Assets.xcassets */,
 				A49845E924AD31F00031B0BD /* LaunchScreen.storyboard */,
 				A49845EC24AD31F00031B0BD /* Info.plist */,
@@ -136,6 +271,105 @@
 			path = LeFoodUITests;
 			sourceTree = "<group>";
 		};
+		A4BEDD9E24CA575A00BB10E1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A474168124BF8ABD00FD20B6 /* AppView.swift */,
+				A4F758F924DBFDA7000079B0 /* ToastView.swift */,
+				A4E4D70324F84A1100C623D4 /* BadgeView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A4E4D6F124F7C78800C623D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E4D70124F8444E00C623D4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A4E4D70224F8446D00C623D4 /* Scan */,
+				A4BEDD9E24CA575A00BB10E1 /* App */,
+				A4F248FC24B260F30099C5D8 /* Menu */,
+				A474168324BF8B0D00FD20B6 /* Order */,
+				A474168424BF8B1700FD20B6 /* Favourites */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A4E4D70224F8446D00C623D4 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				A4B61A1824DE7E81009351C1 /* ScanView.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		A4F248DA24AE89A00099C5D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4F248EE24B1FF780099C5D8 /* MenuProvider.swift */,
+				A44C069D24F5AC2600140984 /* MenuProviderImpl.swift */,
+				A4F248FA24B216840099C5D8 /* MenuProviderMoc.swift */,
+				A4F248F924B216550099C5D8 /* Entities */,
+				A4F248DB24AE89A70099C5D8 /* Parse */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4F248DB24AE89A70099C5D8 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				A4F248DC24AE89C90099C5D8 /* Product.swift */,
+				A4F248E624B1F1B80099C5D8 /* ProductGroup.swift */,
+				A4F248E824B1F1C80099C5D8 /* Place.swift */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		A4F248F024B200AB0099C5D8 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				A4F248EC24B1FDA90099C5D8 /* ViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		A4F248F924B216550099C5D8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A4F248F724B2150D0099C5D8 /* Cart.swift */,
+				A4BBC16C24CC8CC200D9C410 /* UserData.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A4F248FC24B260F30099C5D8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A4F2490824B278660099C5D8 /* MenuListViewModel.swift */,
+				A4F2490A24B278CC0099C5D8 /* MenuListView.swift */,
+				A4F758F524DBEE37000079B0 /* HeaderView.swift */,
+				A45B5DC724C8387800BF7899 /* CardView.swift */,
+				A45B5DC924C839B800BF7899 /* TopView.swift */,
+				A4F248FF24B26BAC0099C5D8 /* MenuImage.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		A4F2490124B26DBC0099C5D8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A4F2490224B26DCA0099C5D8 /* ImageLoader.swift */,
+				A4F2490C24B28A0C0099C5D8 /* ActivityIndicator.swift */,
+				A4E4D6FF24F811BD00C623D4 /* Color+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,12 +380,20 @@
 				A49845D724AD31EE0031B0BD /* Sources */,
 				A49845D824AD31EE0031B0BD /* Frameworks */,
 				A49845D924AD31EE0031B0BD /* Resources */,
+				A4E4D6A724F6669400C623D4 /* Embed App Clips */,
+				A4E4D6EC24F7C19900C623D4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LeFood;
+			packageProductDependencies = (
+				A4E4D6CE24F66E9500C623D4 /* Introspect */,
+				A4E4D6E124F6BF7A00C623D4 /* Networking */,
+				A43CFB07250CD9DE00F967BA /* Stripe */,
+				A43CFB0B250CDA2700F967BA /* ParseSwift */,
+			);
 			productName = LeFood;
 			productReference = A49845DB24AD31EE0031B0BD /* LeFood.app */;
 			productType = "com.apple.product-type.application";
@@ -170,6 +412,8 @@
 				A49845F324AD31F00031B0BD /* PBXTargetDependency */,
 			);
 			name = LeFoodTests;
+			packageProductDependencies = (
+			);
 			productName = LeFoodTests;
 			productReference = A49845F124AD31F00031B0BD /* LeFoodTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -198,8 +442,8 @@
 		A49845D324AD31EE0031B0BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = BDCApps;
 				TargetAttributes = {
 					A49845DA24AD31EE0031B0BD = {
@@ -224,6 +468,12 @@
 				Base,
 			);
 			mainGroup = A49845D224AD31EE0031B0BD;
+			packageReferences = (
+				A4E4D6CD24F66E9500C623D4 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				A4E4D6E024F6BF7A00C623D4 /* XCRemoteSwiftPackageReference "Networking" */,
+				A43CFB06250CD9DE00F967BA /* XCRemoteSwiftPackageReference "stripe-ios" */,
+				A43CFB0A250CDA2700F967BA /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+			);
 			productRefGroup = A49845DC24AD31EE0031B0BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,9 +517,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BBC16D24CC8CC200D9C410 /* UserData.swift in Sources */,
+				A4F248DD24AE89C90099C5D8 /* Product.swift in Sources */,
+				A43D75DC24D8B6ED00C5C4DD /* MyApiClient.swift in Sources */,
+				A44C069E24F5AC2600140984 /* MenuProviderImpl.swift in Sources */,
+				A4F248F824B2150D0099C5D8 /* Cart.swift in Sources */,
+				A474168224BF8ABD00FD20B6 /* AppView.swift in Sources */,
+				A4F248E724B1F1B80099C5D8 /* ProductGroup.swift in Sources */,
 				A49845DF24AD31EE0031B0BD /* AppDelegate.swift in Sources */,
+				A4124AAC24E4472B00CD9C42 /* TextRecognition.swift in Sources */,
+				A4F248EF24B1FF780099C5D8 /* MenuProvider.swift in Sources */,
+				A4F758F624DBEE37000079B0 /* HeaderView.swift in Sources */,
+				A45B5DCA24C839B800BF7899 /* TopView.swift in Sources */,
+				A474168624BF8B4200FD20B6 /* OrderView.swift in Sources */,
+				A4F2490B24B278CC0099C5D8 /* MenuListView.swift in Sources */,
+				A4E4D6FE24F80DDF00C623D4 /* NFCScanner.swift in Sources */,
+				A4E4D6E424F6C02A00C623D4 /* API.swift in Sources */,
+				A4F2490024B26BAC0099C5D8 /* MenuImage.swift in Sources */,
+				A4BBC16B24CB621700D9C410 /* OrderRow.swift in Sources */,
+				A4F758FA24DBFDA7000079B0 /* ToastView.swift in Sources */,
+				A4F248FB24B216840099C5D8 /* MenuProviderMoc.swift in Sources */,
 				A49845E124AD31EE0031B0BD /* SceneDelegate.swift in Sources */,
-				A49845E324AD31EE0031B0BD /* ContentView.swift in Sources */,
+				A4F2490924B278660099C5D8 /* MenuListViewModel.swift in Sources */,
+				A45B5DC824C8387800BF7899 /* CardView.swift in Sources */,
+				A4E4D70024F811BD00C623D4 /* Color+Extension.swift in Sources */,
+				A4E4D70424F84A1100C623D4 /* BadgeView.swift in Sources */,
+				A4B61A1924DE7E81009351C1 /* ScanView.swift in Sources */,
+				A4F248E924B1F1C80099C5D8 /* Place.swift in Sources */,
+				A4F2490D24B28A0C0099C5D8 /* ActivityIndicator.swift in Sources */,
+				A474168824BF8B7D00FD20B6 /* FavouritesView.swift in Sources */,
+				A43D75DD24D8B6ED00C5C4DD /* PaymentContextDelegate.swift in Sources */,
+				A4F248ED24B1FDA90099C5D8 /* ViewModel.swift in Sources */,
+				A4F2490324B26DCA0099C5D8 /* ImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +621,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,6 +682,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -433,16 +714,22 @@
 		A498460624AD31F00031B0BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LeFood/LeFood.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"LeFood/Preview Content\"";
 				DEVELOPMENT_TEAM = G64X4LJMLZ;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = LeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.bdcapps.LeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -453,16 +740,22 @@
 		A498460724AD31F00031B0BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LeFood/LeFood.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"LeFood/Preview Content\"";
 				DEVELOPMENT_TEAM = G64X4LJMLZ;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = LeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.bdcapps.LeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -594,6 +887,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A43CFB06250CD9DE00F967BA /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A43CFB0A250CDA2700F967BA /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kiiskristo/Parse-Swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A4E4D6CD24F66E9500C623D4 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		A4E4D6E024F6BF7A00C623D4 /* XCRemoteSwiftPackageReference "Networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Networking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A43CFB07250CD9DE00F967BA /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43CFB06250CD9DE00F967BA /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
+		};
+		A43CFB0B250CDA2700F967BA /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43CFB0A250CDA2700F967BA /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+		A4E4D6CE24F66E9500C623D4 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4E4D6CD24F66E9500C623D4 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+		A4E4D6E124F6BF7A00C623D4 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4E4D6E024F6BF7A00C623D4 /* XCRemoteSwiftPackageReference "Networking" */;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A49845D324AD31EE0031B0BD /* Project object */;
 }

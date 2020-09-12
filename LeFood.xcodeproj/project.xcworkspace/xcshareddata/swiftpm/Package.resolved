@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Networking",
+        "repositoryURL": "https://github.com/freshOS/Networking",
+        "state": {
+          "branch": null,
+          "revision": "adcc6ad5a163852bbc7bbeccab42ddd40a08b023",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "ParseSwift",
+        "repositoryURL": "https://github.com/kiiskristo/Parse-Swift.git",
+        "state": {
+          "branch": "master",
+          "revision": "19edfc181ae8890adf1af17a2bf1da6ede20ace9",
+          "version": null
+        }
+      },
+      {
+        "package": "Stripe",
+        "repositoryURL": "https://github.com/stripe/stripe-ios.git",
+        "state": {
+          "branch": "master",
+          "revision": "820b7efffd18507eb4cb8cf4150eaf397a7b25ba",
+          "version": null
+        }
+      },
+      {
+        "package": "Introspect",
+        "repositoryURL": "https://github.com/siteline/SwiftUI-Introspect.git",
+        "state": {
+          "branch": null,
+          "revision": "de5c32c15ae169cfcb27397ffb2734dcd0e1e6d5",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

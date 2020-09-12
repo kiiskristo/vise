@@ -7,6 +7,7 @@
 //
 
 import XCTest
+//import ViewInspector
 @testable import LeFood
 
 class LeFoodTests: XCTestCase {
